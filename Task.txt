@@ -1,0 +1,46 @@
+Task: Implement a Scalable RESTful API with OAuth2 Authentication
+-----------------------------------------------------------------
+
+
+Objective:
+  Develop a RESTful API for a web application that will allow external clients to interact with the platform's data securely. The API should be scalable and capable of handling a high number of requests. Additionally, implement OAuth2 for secure authentication and authorization.
+
+
+
+Requirements:
+--API Design & Documentation:
+
+    1- Design the API endpoints following RESTful principles.
+    2- Ensure the API is versioned (e.g., /api/v1/).
+    3- Provide comprehensive API documentation using tools like Swagger or Postman.
+    4- Include proper HTTP status codes for error handling and successful operations.
+
+
+
+Database Interaction:
+  Implement CRUD operations for a sample resource (e.g., products, users).
+  OAuth2 Implementation:
+
+    1- Set up OAuth2 server-side using a PHP library like league/oauth2-server or integrate with a third-party service.
+    2- Allow clients to obtain access tokens using client credentials or authorization code grant.
+    3- Ensure the API validates and scopes tokens appropriately.
+    4- Rate Limiting & Throttling:
+----------------------------------------------------------------------------------------------------------------------------
+    1- Implement rate limiting to prevent abuse (e.g., 100 requests per minute per user).
+    2- Throttle requests when limits are reached, returning appropriate status codes (e.g., 429 Too Many Requests).
+
+
+
+
+Security Measures:
+  1- Sanitize and validate all input data.
+  2- Implement measures to prevent SQL Injection, XSS, and CSRF attacks.
+
+
+
+
+
+Deliverables:
+  1- A fully functional API with OAuth2 authentication.
+  2- API documentation available online or as a downloadable file.
+  3- Source code hosted in a Git repository with commit history.
